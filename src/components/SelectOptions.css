@@ -1,0 +1,20 @@
+.options-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+}
+
+.grid-element {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 35px;
+    cursor: pointer;
+}
+
+.grid-element:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
